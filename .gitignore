@@ -1,1 +1,8 @@
 node_modules
+dist
+img/GitHubDesktopSetup-x64.exe
+img/WindowsPCHealthCheckSetup.msi
+GitHubDesktopSetup-x64.exe
+WindowsPCHealthCheckSetup.msi
+deleted:    img/GitHubDesktopSetup-x64.exe
+deleted:    img/WindowsPCHealthCheckSetup.msi
