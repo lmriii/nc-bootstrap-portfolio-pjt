@@ -8,7 +8,7 @@
     "start": "npm run lite",
     "lite": "lite-server",
     "imagemin": "imagemin img/* -o dist/img",
-    "usemin": "usemin index.html -d dist --htmlmin",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run imagemin && npm run usemin"
   },
