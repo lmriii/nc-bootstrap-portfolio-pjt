@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css">
 
@@ -18,18 +18,20 @@
     <!-- parallax div image added in css -->
     <!-- text added to test text overlay remove/fix with correct message -->
 
-    <div class="parallax"><p style="font-size: 100; color: rebeccapurple; padding-top: 50px;">just some text</p></div>
+    <div class="parallax"><p class=" text-light d-none d-sm-block">Koel Memories Photography</p></div>
 
     <nav class="navbar navbar-expand-md navbar-dark ml-auto sticky-top parallax2 row">
         <div class="col-sm-8 ml-auto">
-            <a class="navbar-brand" href="#">
-                <img src="/img/Koel Memories Photography.png" width="80" height="80" class="d-none d-sm-inline  "
-                    alt="">
-                <div class="brand d-inline-block ">
-                    <h1>Koel Memories</h1>
-                    <p>Photography</p>
-                </div>
-            </a>
+            
+                    <a class="navbar-brand" href="#">
+                        <!-- <img src="/img/logo.png" width="80" height="80" class="d-none d-sm-inline col-3 "
+                            alt=""> -->
+                        <div class="brand d-inline-block">
+                            <p>Koel Memories</p>
+                            <p>Photography</p>
+                        </div>
+                    </a>
+
         </div>
         <div class="col">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -42,7 +44,7 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
@@ -67,148 +69,211 @@
 
 
 
-    <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+    <ul class="nav nav-pills nav-fill" id="gallery" role="tablist">
         <li class="nav-item">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#newborn" role="tab" aria-controls="home"
-                aria-selected="true">Home</a>
+            <a class="nav-link active" id="newborn-tab" data-toggle="tab" href="#newborn" role="tab" aria-controls="newborn-photography"
+                aria-selected="true">Newborn Photography</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
-                aria-selected="false">Profile</a>
+            <a class="nav-link" id="maternity-tab" data-toggle="tab" href="#maternity" role="tab" aria-controls="maternity-photography"
+                aria-selected="false">Maternity Photography</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages"
-                aria-selected="false">Messages</a>
+            <a class="nav-link" id="family-tab" data-toggle="tab" href="#family" role="tab" aria-controls="family-photography"
+                aria-selected="false">Family Photography</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings"
                 aria-selected="false">Settings</a>
-        </li>
+        </li> -->
     </ul>
 
     <div class="tab-content">
-        <div class="tab-pane active" id="newborn" role="tabpanel" aria-labelledby="home-tab">
+        <div class="tab-pane active" id="newborn" role="tabpanel" aria-labelledby="newborn-photograpy">
             <h2 class="gallery-heading m-5 text-sm-center">Newborn Photography</h2>
             <div class="card-columns">
-
-                <div class="card">
-                    <img class="card-img-top" src="/img/newborn5.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title that wraps to a new line</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-                <div class="card p-3">
-                    <blockquote class="blockquote mb-0 card-body">
-                        <p>Photography is the only language that can be understood anywhere in the world.</p>
-                        <footer class="blockquote-footer">
-                            <small class="text-muted">
-                                <cite title="Source Title">Bruno Barbey</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
-                </div>
                 <div class="card">
                     <img class="card-img" src="/img/newborn1.jpg" alt="Card image">
                 </div>
                 <div class="card">
                     <img class="card-img" src="/img/newborn2.jpg" alt="Card image">
                 </div>
-                <div class="card p-3">
-                    <blockquote class="blockquote mb-0 card-body">
-                        <p>Photography is the only language that can be understood anywhere in the world.</p>
-                        <footer class="blockquote-footer">
-                            <small class="text-muted">
-                                <cite title="Source Title">Bruno Barbey</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn20.jpg" alt="Card image">
                 </div>
-
+                <div class="card">
+                    <img class="card-img" src="/img/newborn21.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn22.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn23.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn24.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn25.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn26.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn27.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn28.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn29.jpg" alt="Card image">
+                </div>
                 <div class="card">
                     <img class="card-img" src="/img/newborn3.jpg" alt="Card image">
                 </div>
                 <div class="card">
+                    <img class="card-img" src="/img/newborn30.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn31.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn32.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn33.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn34.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn35.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn36.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn37.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn38.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn39.jpg" alt="Card image">
+                </div>
+                <div class="card">
                     <img class="card-img" src="/img/newborn4.jpg" alt="Card image">
                 </div>
-
                 <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.
-                        </p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
+                    <img class="card-img" src="/img/newborn40.jpg" alt="Card image">
                 </div>
-                <div class="card bg-primary text-white text-center p-3">
-                    <blockquote class="blockquote mb-0">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                        <footer class="blockquote-footer">
-                            <small>
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn41.jpg" alt="Card image">
                 </div>
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.
-                        </p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn42.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn43.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn44.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn46.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn47.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn5.jpg" alt="Card image">
                 </div>
                 <div class="card">
                     <img class="card-img" src="/img/newborn6.jpg" alt="Card image">
                 </div>
-                <div class="card p-3 text-right">
-                    <blockquote class="blockquote mb-0">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <footer class="blockquote-footer">
-                            <small class="text-muted">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn7.jpg" alt="Card image">
                 </div>
                 <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height
-                            action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
+                    <img class="card-img" src="/img/newborn8.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/newborn9.jpg" alt="Card image">
                 </div>
             </div>
-
         </div>
-        <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+        <div class="tab-pane" id="maternity" role="tabpanel" aria-labelledby="maternity-tab">
+            <h2 class="gallery-heading m-5 text-sm-center">Maternity Photography</h2>
+            <div class="card-columns">
+                <div class="card">
+                    <img class="card-img" src="/img/maternity1.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity10.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity2.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity20.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity21.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity22.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity23.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity24.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity25.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity26.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity27.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity28.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity3.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity30.jpg" alt="Card image">
+                </div>                
+                <div class="card">
+                    <img class="card-img" src="/img/maternity4.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity5.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity6.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity7.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity8.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/maternity9.jpg" alt="Card image">
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane" id="family" role="tabpanel" aria-labelledby="family-photography">
             <h2 class="gallery-heading m-5 text-sm-center">Family Photography</h2>
             <div class="card-columns">
-
                 <div class="card">
-                    <img class="card-img-top" src="/img/family1.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title that wraps to a new line</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-                <div class="card p-3">
-                    <blockquote class="blockquote mb-0 card-body">
-                        <p>Photography is the only language that can be understood anywhere in the world.</p>
-                        <footer class="blockquote-footer">
-                            <small class="text-muted">
-                                <cite title="Source Title">Bruno Barbey</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
+                    <img class="card-img" src="/img/family1.jpg" alt="Card image">
                 </div>
                 <div class="card">
                     <img class="card-img" src="/img/family10.jpg" alt="Card image">
@@ -216,180 +281,130 @@
                 <div class="card">
                     <img class="card-img" src="/img/family11.jpg" alt="Card image">
                 </div>
-                <div class="card p-3">
-                    <blockquote class="blockquote mb-0 card-body">
-                        <p>Photography is the only language that can be understood anywhere in the world.</p>
-                        <footer class="blockquote-footer">
-                            <small class="text-muted">
-                                <cite title="Source Title">Bruno Barbey</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
-                </div>
-
                 <div class="card">
                     <img class="card-img" src="/img/family2.jpg" alt="Card image">
                 </div>
                 <div class="card">
+                    <img class="card-img" src="/img/family20.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family22.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family23.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family26.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family27.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family28.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family29.jpg" alt="Card image">
+                </div>
+                <div class="card">
                     <img class="card-img" src="/img/family3.jpg" alt="Card image">
                 </div>
-
                 <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.
-                        </p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
+                    <img class="card-img" src="/img/family30.jpg" alt="Card image">
                 </div>
-                <div class="card bg-primary text-white text-center p-3">
-                    <blockquote class="blockquote mb-0">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                        <footer class="blockquote-footer">
-                            <small>
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
+                <div class="card">
+                    <img class="card-img" src="/img/family31.jpg" alt="Card image">
                 </div>
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.
-                        </p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family33.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family34.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family35.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family36.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family37.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family38.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family39.jpg" alt="Card image">
                 </div>
                 <div class="card">
                     <img class="card-img" src="/img/family4.jpg" alt="Card image">
                 </div>
-                <div class="card p-3 text-right">
-                    <blockquote class="blockquote mb-0">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <footer class="blockquote-footer">
-                            <small class="text-muted">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
+                <div class="card">
+                    <img class="card-img" src="/img/family40.jpg" alt="Card image">
                 </div>
                 <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height
-                            action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
+                    <img class="card-img" src="/img/family41.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family42.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family43.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family44.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family45.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family46.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family47.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family48.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family49.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family5.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family50.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family51.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family52.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family53.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family54.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family6.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family6.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family7.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family8.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="/img/family9.jpg" alt="Card image">
                 </div>
             </div>
 
         </div>
-        <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
-            <h2 class="gallery-heading m-5 text-sm-center">Maternity Photography</h2>
-            <div class="card-columns">
-
-                <div class="card">
-                    <img class="card-img-top" src="/img/maternity6.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title that wraps to a new line</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-                <div class="card p-3">
-                    <blockquote class="blockquote mb-0 card-body">
-                        <p>Photography is the only language that can be understood anywhere in the world.</p>
-                        <footer class="blockquote-footer">
-                            <small class="text-muted">
-                                <cite title="Source Title">Bruno Barbey</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="/img/maternity1.jpg" alt="Card image">
-                </div>
-                <div class="card">
-                    <img class="card-img" src="/img/maternity5.jpg" alt="Card image">
-                </div>
-                <div class="card p-3">
-                    <blockquote class="blockquote mb-0 card-body">
-                        <p>Photography is the only language that can be understood anywhere in the world.</p>
-                        <footer class="blockquote-footer">
-                            <small class="text-muted">
-                                <cite title="Source Title">Bruno Barbey</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
-                </div>
-
-                <div class="card">
-                    <img class="card-img" src="/img/maternity2.jpg" alt="Card image">
-                </div>
-                <div class="card">
-                    <img class="card-img" src="/img/maternity4.jpg" alt="Card image">
-                </div>
-
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.
-                        </p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div class="card bg-primary text-white text-center p-3">
-                    <blockquote class="blockquote mb-0">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                        <footer class="blockquote-footer">
-                            <small>
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
-                </div>
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.
-                        </p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="/img/maternity5.jpg" alt="Card image">
-                </div>
-                <div class="card p-3 text-right">
-                    <blockquote class="blockquote mb-0">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <footer class="blockquote-footer">
-                            <small class="text-muted">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height
-                            action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+        <!-- <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
             <h2 class="gallery-heading m-5 text-sm-center">no quotes Photography</h2>
             <div class="card-columns">
                 <div class="card">
@@ -423,13 +438,13 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
     </div>
 
 
     <!-- carousel...optional at this time -->
 
-
+<!-- 
     <div id="myCarousel" class="carousel slide d-none d-sm-block" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -481,7 +496,7 @@
         </a>
     </div>
 
-
+ -->
 
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
