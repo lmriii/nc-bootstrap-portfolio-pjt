@@ -1,5 +1,5 @@
 
-/* parallax */
+/* parallax effect */
 
 .parallax {
   /* The image used */
@@ -21,6 +21,8 @@
   padding-top: 3rem;
 }
 
+/* parallax effect on the header */
+
 .parallax2 {
   /* The image used */
   background-image: url("/img/bokeh.jpg");
@@ -33,6 +35,8 @@
   background-color: black;
 }
 
+
+/* navbar */
 .navbar {
   font-family: 'tangerine', cursive;
   
@@ -45,13 +49,8 @@
   padding-top: 1rem;
 }
 
-/* .navbar-brand img {
-  align-self: center;
-} */
-
 .navbar p {
-  font-size: 3.5rem;
-  
+  font-size: 3.5rem;  
 }
 
 .navbar .nav-link {
@@ -60,14 +59,11 @@
 
 .darkening-bg {
   background-color: rgba(43, 36, 36, .3);
-  /* opacity: .4; */
   color: white;
 }
 
-/* hover effect on navbar */
 
 .nav-pills {
-
     padding: 5%;
 }
 
@@ -75,12 +71,9 @@
   padding-top: 30vh;
 }
 
-
-
 .nav-pills .nav-link {
   font-family: 'tangerine', cursive;
-  font-size: 2rem;
-  
+  font-size: 2rem;  
   color: black;
 }
 
